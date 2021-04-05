@@ -1,0 +1,41 @@
+.container {
+  max-width: 720px;
+  margin: 0.5rem auto;
+  padding: 0.5rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #fff;
+  color: #000;
+  border-radius: 0.2rem;
+}
+
+.container div {
+  display: flex;
+}
+
+.input {
+  padding: 0.2rem 0.5rem;
+
+  border: none;
+  border-bottom: 1px solid #ccc;
+
+  background: inherit;
+  color: inherit;
+}
+
+.input[disabled] {
+  cursor: not-allowed;
+}
+
+button {
+  border: none;
+  background: inherit;
+  cursor: pointer;
+}
+
+svg {
+  pointer-events: none;
+}
